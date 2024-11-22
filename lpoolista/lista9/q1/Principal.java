@@ -11,7 +11,7 @@ public class Principal {
 		System.out.println(s1.isFilled());
 		
 		/*Linha abaixo gera erro de complilação. O objeto s1 tem o tipo de referência Shape. Não ocorre polimorfismo, 
-		 pois o método getRadius é declarado apenas na classe Circle, então o obejo não consegue ter o 
+		 pois o método getRadius() é declarado apenas na classe Circle, então o obejo não consegue ter o 
 		 comportamento da classe pai quando este método é invocado.*/
 		//System.out.println(s1.getRadius);
 		
