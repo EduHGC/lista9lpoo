@@ -26,6 +26,7 @@ public class Principal {
 		System.out.println("-----------------");
 		dog3.greets();
 		dog3.greets(dog3);
+		//
 		dog3.greets(bigdog1);
 		
 		System.out.println("-----------------");
